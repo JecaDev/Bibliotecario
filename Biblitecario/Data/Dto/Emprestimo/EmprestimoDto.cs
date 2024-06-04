@@ -1,0 +1,21 @@
+﻿namespace Bibliotecario.Data.Dto.Emprestimo
+{
+    public class EmprestimoDto
+    {
+        public int LivroId { get; set; }
+        public int UsuarioId { get; set; }
+        public DateTime DataEmprestimo { get; set; }
+        public DateTime? DataDevolucao { get; set; }
+    }
+
+    public class EmprestimoBusca
+    {
+        public int LivroId { get; set; }
+        public int UsuarioId { get; set; }
+    }
+    public class ReturnBusca
+    {
+        public int LivroId { get; set; }
+        public int UsuarioId { get; set; }
+    }
+}
